@@ -138,7 +138,8 @@ class SlotMachine {
         // Event Listeners
         document.getElementById('btn-spin').addEventListener('click', () => this.spin());
         document.getElementById('btn-auto').addEventListener('click', () => this.toggleAutoSpin());
-        document.getElementById('btn-max').addEventListener('click', () => this.maxBet());
+        document.getElementById('btn-max-bet').addEventListener('click', () => this.maxBet());
+
         
         document.getElementById('manual-bet-input').addEventListener('input', (e) => this.handleManualBet(e));
 
